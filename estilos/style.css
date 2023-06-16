@@ -7,3 +7,52 @@ Branco Esverdeado --> #D2ffd6ee
 Azul --> #1D98D4
 */
 
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+body, html {
+    background-color: #1D98D4;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: white;
+    width: 285px;
+    height: 550px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+
+}
+
+section#login > div#imagem {
+    display: block;
+    background: #1D98D4 url(../imagens/logo--metalurgica.jpg) no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    height: 275px;
+    
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+}
