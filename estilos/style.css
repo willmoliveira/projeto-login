@@ -49,9 +49,9 @@ section#login {
 section#login > div#imagem {
     display: block;
     background: #1D98D4 url(../imagens/logo--metalurgica.jpg) no-repeat;
-    
+
     background-size: cover;
-    background-position: bottom center;
+    background-position: center bottom;
     height: 275px;
     
 }
